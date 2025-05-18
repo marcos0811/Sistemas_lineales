@@ -1,0 +1,7 @@
+Este script en MATLAB implementa un proceso completo de filtrado de imágenes mediante convolución discreta 2D con un filtro gaussiano construido manualmente. Se incluye:
+-La lectura de una imagen cualquiera.
+-Su conversión a escala de grises y al formato BMP para evitar pérdidas por compresión.
+-La adición de ruido aleatorio tipo sal y pimienta, con el fin de evaluar de forma más visual y efectiva la respuesta del filtro gaussiano.
+-Y la aplicación del filtro gaussiano mediante una convolución local.
+
+Este procedimiento permite simular cómo un sistema lineal e invariante en el tiempo (LTI) responde a una señal perturbada, lo cual representa una aplicación práctica de la convolución en el procesamiento digital de imágenes.
